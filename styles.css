@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 header {
   padding: 2em;
   margin: 0;
@@ -22,7 +23,6 @@ article {
 }
 .sentence {
   padding: 2px 4px;
-  border-radius: 8px;
 }
 
 ::highlight(green) {
