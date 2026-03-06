@@ -100,7 +100,7 @@ This creates:
 
 #### Step 4: Sentence Boundary Detection
 
-The tool uses [sentencex-wasm](https://github.com/creativeprojects/sentencex), a WebAssembly port of the [segment](https://github.com/manuelcabral/segment) library, to detect sentence boundaries. This library:
+The tool uses [sentencex-wasm](https://github.com/wikimedia/sentencex), a WebAssembly port of the [sentnecex](https://github.com/wikimedia/sentencex) library, to detect sentence boundaries. This library:
 
 - Uses language-specific rules for sentence boundary detection
 - Handles abbreviations, decimal numbers, and other edge cases
@@ -275,7 +275,7 @@ const config = new HtmlSegmentConfig("en", [
 ## Dependencies
 
 - **[tree-sitter](https://tree-sitter.github.io/)**: HTML parsing via WebAssembly
-- **[sentencex-wasm](https://github.com/creativeprojects/sentencex)**: Language-aware sentence segmentation
+- **[sentencex-wasm](https://github.com/wikimedia/sentencex)**: Language-aware sentence segmentation
 
 ## Browser Support
 
