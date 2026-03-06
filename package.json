@@ -12,7 +12,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "postinstall": "cp node_modules/web-tree-sitter/web-tree-sitter.* public && cp node_modules/tree-sitter-html/tree-sitter-html.wasm public"
+    "postinstall": "mkdir -p public && cp node_modules/web-tree-sitter/web-tree-sitter.* public && cp node_modules/tree-sitter-html/tree-sitter-html.wasm public"
   },
   "devDependencies": {
     "vite": "^7.3.1"
